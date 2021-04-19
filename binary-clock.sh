@@ -5,7 +5,8 @@ D2B=({○,●}{○,●}{○,●}{○,●}{○,●}{○,●})            # array 
 tput civis                                      # hide the cursor
 xdotool key Ctrl+0 key --repeat 5 Ctrl+plus     # set the font size
 sleep .1                                        # let the virtual key pressing catch up
-printf '\033[8;6;6t'                            # set the terminal size
+resize -s 6 11                                  # set the terminal size
+
 clear
 
 if [ $(date +%P) = "am" ]; then tput setaf 9; else tput setaf 10; fi
