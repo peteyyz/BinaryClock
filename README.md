@@ -6,6 +6,7 @@ Requires xdotool, ncurses and xterm.
 
 Aims to be an accurate clock by pre-drawing the clock face and refreshing upon the start of a new second.
 
+
 Main loop:
 
 The clock face for the next second is computed and stored before the main timeout occurs.
