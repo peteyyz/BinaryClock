@@ -1,11 +1,11 @@
 #!/bin/bash 
 
-SCALE=.95										                  # main timeout - adjust to taste
-D2B=({○,●}{○,●}{○,●}{○,●}{○,●}{○,●})			    # array via brace expansion
-tput civis										                # hide the cursor
+SCALE=.95										# main timeout - adjust to taste
+D2B=({○,●}{○,●}{○,●}{○,●}{○,●}{○,●})			# array via brace expansion
+tput civis										# hide the cursor
 xdotool key Ctrl+0 key --repeat 5 Ctrl+plus		# set the font size
-sleep .1										                  # let the virtual key pressing catch up
-printf '\033[8;6;6t'							            # set the terminal size
+sleep .1										# let the virtual key pressing catch up
+printf '\033[8;6;6t'							# set the terminal size
 clear
 
 if [ $(date +%P) = "am" ]; then tput setaf 9; else tput setaf 10; fi
@@ -29,8 +29,8 @@ function timeout {
 }
 
 function wait_for_it {
-    LOOP_START=$CUR_TIME						            # This check will loop for a very short time (1 second minus the timeout)
-    while [ $CUR_TIME -eq $LOOP_START ];		    # Adjust the read/delay in the timeout function (via SCALE variable) if the rest
+    LOOP_START=$CUR_TIME						# This check will loop for a very short time (1 second minus the timeout)
+    while [ $CUR_TIME -eq $LOOP_START ];		# Adjust the read/delay in the timeout function (via SCALE variable) if the rest
     do                                          # of the code takes longer than one second minus the timeout.
         CUR_TIME=$(date "+%s")
     done
