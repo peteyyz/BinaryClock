@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 SCALE=.95                                       # main timeout - adjust to taste
-D2B=({○,●}{○,●}{○,●}{○,●}{○,●}{○,●})			# array via brace expansion
+D2B=({○,●}{○,●}{○,●}{○,●}{○,●}{○,●})            # array via brace expansion
 tput civis                                      # hide the cursor
 xdotool key Ctrl+0 key --repeat 5 Ctrl+plus     # set the font size
 sleep .1                                        # let the virtual key pressing catch up
