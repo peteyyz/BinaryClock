@@ -1,9 +1,7 @@
 # BinaryClock
 
 A binary clock, written in BASH.  Favors accuracy over aesthetics.
-
 Requires xdotool, ncurses and xterm.
-
 Aims to be an accurate clock by pre-drawing the clock face and refreshing upon the start of a new second.
 
 
