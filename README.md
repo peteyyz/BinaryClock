@@ -10,3 +10,4 @@ Main loop:
 * The already rendered clock face is printed.
 * The main timeout is a wait for keypress read, default of .95 seconds.  Adjust as needed for slower systems.
 
+![binclock_2pm16m47s](https://user-images.githubusercontent.com/73159111/115932292-82d8ae00-a441-11eb-9da7-513a110fcecc.png)
