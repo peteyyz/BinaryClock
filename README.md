@@ -9,9 +9,9 @@ Main loop:
 * The function wait_for_it checks the time until the next second is reached.  By default it loops for only .05 seconds, using much less CPU.
 * The already rendered clock face is printed.
 * The main timeout is a wait for keypress read, default of .95 seconds.  Adjust as needed for slower systems.
-
-
+ 
+ 
 Screengrab of the clock at 2:16:47 PM.
-
-
+ 
+ 
 ![binclock_2pm16m47s](https://user-images.githubusercontent.com/73159111/115932292-82d8ae00-a441-11eb-9da7-513a110fcecc.png)
