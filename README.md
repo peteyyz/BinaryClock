@@ -13,5 +13,4 @@ Main loop:
  
 Screengrab of the clock at 2:16:47 PM.
  
- 
 ![binclock_2pm16m47s](https://user-images.githubusercontent.com/73159111/115932292-82d8ae00-a441-11eb-9da7-513a110fcecc.png)
